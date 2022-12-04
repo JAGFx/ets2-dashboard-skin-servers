@@ -6,3 +6,4 @@ dist/
 /.prettierrc.json
 /.eslintignore
 /.prettierignore
+/tsconfig.json
