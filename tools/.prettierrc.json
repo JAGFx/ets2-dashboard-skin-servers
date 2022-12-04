@@ -1,0 +1,16 @@
+{
+  "semi": true,
+  "trailingComma": "none",
+  "singleQuote": true,
+  "printWidth": 80,
+  "importOrder" : [
+    "(.*).mock$",
+    "^ets2-dashboard-core/(.*)$",
+    "^ets2-dashboard-server-lib/(.*)$",
+    "^@lib/(.*)$",
+    "^@/(.*)$",
+    "^[./]"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
+}

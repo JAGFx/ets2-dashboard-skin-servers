@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "paths" : {
+      "@/*": ["src/*"],
+      "@server-lib/*": ["../../lib/src/*"]
+    },
+    "baseUrl" : "./",
+    "target": "ESNext",
+    "module": "ESNext",
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+    "outDir" : "dist",
+    "strict": true,
+	"moduleResolution": "Node",
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "strictPropertyInitialization": false
+  }
+}

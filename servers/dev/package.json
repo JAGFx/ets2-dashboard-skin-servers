@@ -1,0 +1,27 @@
+{
+  "name": "ets2-dashboard-server-dev",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/main.ts",
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc -p tsconfig.json && tsc-alias",
+    "watch": "nodemon -w src src/main.ts",
+    "start": "nodemon src/main.ts"
+  },
+  "ts-node": {
+    "esm": true
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.10",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "tsc-alias": "^1.8.1",
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "fastify": "^4.10.2",
+    "ets2-dashboard-core": "file:/home/esm/Work/Dev/ets2-dashboard-skin/lib/jagfx/core",
+    "ets2-dashboard-server-lib": "file:../../lib"
+  }
+}

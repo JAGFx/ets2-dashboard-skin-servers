@@ -1,0 +1,16 @@
+{
+  "name": "ets2-dashboard-server-lib",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "ets2-dashboard-core": "file:/home/esm/Work/Dev/ets2-dashboard-skin/lib/jagfx/core"
+  },
+  "scripts": {
+    "build": "rm -r dist && npx tsc && tsc-alias"
+  },
+  "devDependencies": {
+    "ts-jest": "^29.0.3"
+  }
+}
