@@ -9,10 +9,10 @@ install:
 	@npm i
 
 start:
-	@npm start -w server/dev
+	@npm start -w servers/dev
 
 watch:
-	@npm run watch -w server/dev
+	@npm run watch -w servers/dev
 
 test:
 	@npm test
